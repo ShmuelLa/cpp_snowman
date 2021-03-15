@@ -1,3 +1,14 @@
+/**
+ * @file Test.cpp
+ * @author Shmuel.Lavian
+ * @brief 
+ * @version 0.1
+ * @date 2021-03-10
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 #include "snowman.hpp"
 #include <cstring>
 #include <iostream>
@@ -44,8 +55,3 @@ namespace ariel {
                         + torso.at(pos.at(T)-1) + right_arm2.at(pos.at(Y)-1) + base.at(pos.at(B)-1) + "\n");
     }
 }
-
-// int main() {
-//     const int test = 24232222;
-//     cout << ariel::snowman(test);
-// }
